@@ -66,7 +66,8 @@ p {
 	letter-spacing: 1px;
 	
 }
-hr {display: inherit;
+hr { 
+	display: inherit;
 	background-color: white;
 	width:70%;
 	margin-top: 2px;
@@ -95,7 +96,7 @@ margin-top: 20px;
 	position: relative;
 	background:#0a131c;
 	bottom: 0;
-	height:200px;
+
 	width: 100%;
 }
 .carousel-inner img {
@@ -173,4 +174,28 @@ margin-top: 20px;
 	color: white;
 	font-size: 2vw;
 }
-
+.handle {
+	/* border: 3px solid white; */
+	padding-top: 20px;
+	padding-left: 0;
+}
+.cu {
+	display: block;
+	color:white;
+	vertical-align: middle;
+	font-family: 'Special Elite', cursive;
+	font-size: 14px;
+	text-align: center;
+}
+.cu img {
+	margin-right: 8px;
+	margin-bottom: 11px;
+     width:20px;
+	height:20px;
+	
+}
+#fl {
+	margin-bottom: 20px;
+	border: 2px solid white;
+	border-radius: 10px;
+}
