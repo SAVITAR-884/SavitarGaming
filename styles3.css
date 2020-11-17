@@ -6,21 +6,17 @@
 	width: 100%;
 	margin: 0;
 }
-
-#bgr{
-	background-image: url("pics/bg/homebg2.jpg");
+body {
+	background-image: url("pics/bg/wbg.jpg");
 
 	background-position: center;
 	background-size: cover;
+}
 
-	
-}
-#main-content{
-	padding-top: 100px;
-}
+
 nav {
 	/* background:url(post.png); */
-	background-color:#290c1a;	
+	background-color:#020b13;	
     
 	
 }
@@ -30,23 +26,22 @@ nav {
 	color:white;
 	vertical-align: bottom;
 }
+#logo {
+	width: 18%;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
 .navbar-dark .navbar-toggler{
 	color: white;
 	border-color: white;
 }
 .brand-name {
-	
 	font-family: 'Frijole', cursive;
 	color: white;
 	font-size: 3vw;
-}
-#logo {
-	width: 18%;
 	
-}
-p {
-	padding: 0;
-	margin: 0;
 }
 .navbar-header {
 	line-height: 1;
@@ -79,59 +74,136 @@ hr {display: inherit;
 	font-size: 50px;
 	font-family: 'Special Elite', cursive;
 	font-weight: bold;
-	color:#ad4546;
+	color: white;
 	text-shadow: 1px 1px 6px white;
 }
 .w{
 	/* border: 2px solid black; */
-margin-bottom: 20px;
+
 margin-top: 20px;
+	
+
+
+}
+.row .game-icon {
+	height: 165px;
+	max-height: 165px;
+	border-radius: 5px;
+	/* border: 2px solid red; */
+
+
+} 
+/* game cover photo */
+#fn {
+    background-image: url('pics/fn.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#valo {
+    background-image: url('pics/valo.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#gta {
+    background-image: url('pics/gta5.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#cod {
+    background-image: url('pics/codmw.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#ac {
+    background-image: url('pics/ac.jpg');
+	background-size:cover;
+	background-position: center;
+}
+
+
+
+.col-6 {
+	/* border: 2px solid blue; */
 	height: 230px;
+}
+.cover {
+	padding-bottom: 0;
+	padding: 4px;
+	box-shadow: 1px 1px 8px 2px black;
+	border-radius: 5px;
+	/* border:2px solid green; */
+	background-color: white;
+}
+.game-name {
+	/* border: 2px solid yellow; */
+	text-align: center;
+	font-family: "Roboto",sans-serif;
+	letter-spacing: 1px;
+}
+.row .w .inst-btn {
+	position: relative;
+	background:#b50220;
+	font-family: "Roboto",sans-serif;
+	font-size: 15px;
+	height: 30px;
+	width: 50%;
+	font-weight: 500;
+	color: white;
+	text-align: center;
+	border-radius: 3px;
+    padding-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+	
+}
+a:link, a:visited {
+	color:white;
+	text-decoration: none;
+	cursor: pointer;
+  }
+.row .w .inst-btn:hover {
+	box-shadow: 1px 1px 5px 1px black;
+}
 
-
+.game-des {
+	padding-top: 10px;
+	font-size: 0.7em;
+	text-align:center;
+	color: white;
+	overflow: hidden;
+	max-height: 160px;
 }
 
 .panel-footer {
 	position: relative;
-	background:#0a131c;
+	background:#020b13;
 	bottom: 0;
-
+	
 	width: 100%;
 }
-
-
-
-.conf{
-    border-radius: 5px;
-
-    padding: 20px;
-    opacity: 60%;
-    height: 800px;
-  }
-
-  .handle {
+.handle {
 	/* border: 3px solid white; */
 	padding-top: 20px;
 	padding-left: 0;
 }
 .cu {
 	display: block;
-	color:#161c2a;
-	font-family:'Special Elite', cursive;
-	font-size: 24px;
+	color:white;
+	vertical-align: middle;
+	font-family: 'Special Elite', cursive;
+	font-size: 14px;
 	text-align: center;
 }
-.cui {
-	text-align: center;
-margin-bottom: 20px;
-}
-.cui img {
-    width:50px;
-	height:50px;
-	margin-left: 50px;
+.cu img {
+	margin-right: 8px;
+	margin-bottom: 11px;
+     width:20px;
+	height:20px;
+	
 }
 #fl {
 	margin-bottom: 20px;
-	border: 2px solid #a84444;
+	border: 2px solid white;
 	border-radius: 10px;
 }

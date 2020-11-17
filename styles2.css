@@ -6,21 +6,17 @@
 	width: 100%;
 	margin: 0;
 }
-
-#bgr{
-	background-image: url("pics/bg/bg.jpg");
-	
+body {
+	background-image: url("pics/bg/anbg.jpg");
+	opacity: 90%;
 	background-position: center;
 	background-size: cover;
+}
 
 
-}
-#main-content{
-	padding-top: 50px;
-}
 nav {
 	/* background:url(post.png); */
-	background-color:#406075;	
+	background-color:#021c1d;	
     
 	
 }
@@ -30,23 +26,22 @@ nav {
 	color:white;
 	vertical-align: bottom;
 }
+#logo {
+	width: 18%;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
 .navbar-dark .navbar-toggler{
 	color: white;
 	border-color: white;
 }
 .brand-name {
-	
 	font-family: 'Frijole', cursive;
 	color: white;
 	font-size: 3vw;
-}
-#logo {
-	width: 18%;
 	
-}
-p {
-	padding: 0;
-	margin: 0;
 }
 .navbar-header {
 	line-height: 1;
@@ -66,8 +61,7 @@ p {
 	letter-spacing: 1px;
 	
 }
-hr { 
-	display: inherit;
+hr {display: inherit;
 	background-color: white;
 	width:70%;
 	margin-top: 2px;
@@ -91,88 +85,147 @@ margin-top: 20px;
 
 
 }
+.row .game-icon {
+	height: 165px;
+	max-height: 165px;
+	border-radius: 5px;
+	/* border: 2px solid red; */
 
+
+} 
+
+
+
+/* game cover photo */
+#pubg {
+    background-image: url('pics/PUBG_Mobile.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#cod {
+    background-image: url('pics/cod-mobile.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#coc {
+    background-image: url('pics/coc.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#us {
+    background-image: url('pics/amongus.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#pes {
+    background-image: url('pics/pes.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#mm {
+    background-image: url('pics/mm.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#ff {
+    background-image: url('pics/ff1.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#gta {
+    background-image: url('pics/gta.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#nfs {
+    background-image: url('pics/nfs.png');
+	background-size:cover;
+	background-position: center;
+}
+.col-6 {
+	/* border: 2px solid blue; */
+	height: 230px;
+}
+.cover {
+	padding-bottom: 0;
+	padding: 4px;
+	box-shadow: 1px 1px 8px 2px black;
+	border-radius: 5px;
+	/* border:2px solid green; */
+	background-color: white;
+}
+.game-name {
+	/* border: 2px solid yellow; */
+	text-align: center;
+	font-family: "Roboto",sans-serif;
+	letter-spacing: 1px;
+}
+.row .w .inst-btn {
+	position: relative;
+	background:#689f38;
+	font-family: "Roboto",sans-serif;
+	font-size: 15px;
+	height: 30px;
+	width: 100%;
+	font-weight: 500;
+	color: white;
+	text-align: center;
+	border-radius: 3px;
+	padding-top: 3px;
+	
+}
+a:link, a:visited {
+	color:white;
+	text-decoration: none;
+	cursor: pointer;
+  }
+.row .w .inst-btn:hover {
+	box-shadow: 1px 1px 5px 0.5px black;
+}
+.col-6 .more-btn {
+    position: absolute;
+	background: #689f38;
+	font-family: "Roboto",sans-serif;
+	color: white;
+	font-size: 10px;
+	height: 25px;
+	padding-top:3px;
+	bottom: 5px;
+}
+.col-6 button:hover {
+	box-shadow: 1px 1px 5px 0.5px black;
+	color: white;
+}
+.col-6 .game-des {
+	padding-top: 10px;
+	font-size: 0.7em;
+	text-align:center;
+	color: white;
+	overflow: hidden;
+	max-height: 160px;
+}
+.modal-header {
+	background-color: #689f38;
+	color: white;
+
+}
+.modal-body li {
+	font-family: "Roboto",sans-serif;
+    display: block;
+	font-weight: bold;
+	float: left;
+	padding: 20px;
+	
+}
+.modal-body li span {
+	font-weight: normal;
+}
 .panel-footer {
 	position: relative;
-	background:#0a131c;
+	background:black;
 	bottom: 0;
-
+	
 	width: 100%;
-}
-.carousel-inner img {
-
-	width: 100%;
-	height:inherit;
-	
-    border: 5px solid white;
-    	
-
-}
-.carousel {
-	
-	margin-bottom: 50px;
-	box-shadow: 1px 1px 10px 5px black;
-	
-	margin-left: auto;
-    margin-right: auto;
-	width: 80%;
-	height: 100%;
-	max-height: 500px;
-}
-.carousel-item {
-	height: inherit;
-}
-.carousel-inner{
-	height: inherit;
-}	
-
-.carousel-control-prev, .carousel-control-next {
-	background-color: black ;
-	opacity: .3;
-	
-    width: 17%;
-    margin-left: -17.3%;
-    margin-right: -17.3%;
-
-}
-
-.yt {
-	/* border: 2px solid red; */
-		color:white;
-		
-		height: 500px;
-		font-size:26px;
-    font-size: 3vw;
-	    font-weight: bold;
-		font-family: 'Special Elite', cursive;
-		text-align: center;
-	
-}
-
-
-
-.gvid {
-	/* border: 2px solid green; */
-	overflow: scroll;
-	height: 500px;
-	overflow-x: hidden;
-}
-.vid {
-	display: block;
-    width: 80%;
-     margin-left: auto;
-	  margin-right: auto;
-	  margin-bottom:10px;
-	  border-radius: 10px;
-	  border: 3px solid white;
-	  box-shadow: 1px 1px 8px 2px black;
-}
-#gt {
-	display: block;
-	font-family: 'Special Elite', cursive;
-	text-align: center;
-	color: white;
-	font-size: 2vw;
 }
 .handle {
 	/* border: 3px solid white; */
