@@ -137,11 +137,10 @@ margin-top: 20px;
 }
 
 .yt {
-	border: 2px solid red;
+	/* border: 2px solid red; */
 		color:white;
 		font-size:26px;   
-	    font-weight: bold;
-		font-family: 'Special Elite', cursive;
+	    font-family: 'Special Elite', cursive;
 		text-align: center;
 	
 }
@@ -150,6 +149,7 @@ margin-top: 20px;
 	overflow: scroll;
 	height: 500px;
 	overflow-x: hidden;
+	margin-bottom: 50px;
 }
 .vid {
 	display: block;
@@ -157,7 +157,7 @@ margin-top: 20px;
      margin-left: auto;
 	  margin-right: auto;
 	  margin-bottom:10px;
-	  border-radius: 10px;
+	
 	  border: 3px solid white;
 	  box-shadow: 1px 1px 8px 2px black;
 }
@@ -176,7 +176,7 @@ margin-top: 20px;
 .cu {
 	display: block;
 	color:white;
-	vertical-align: middle;
+
 	font-family: 'Special Elite', cursive;
 	font-size: 14px;
 	text-align: center;
