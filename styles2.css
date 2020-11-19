@@ -6,7 +6,7 @@
 	width: 100%;
 	margin: 0;
 }
-body {
+#bgr {
 	background-image: url("pics/bg/anbg.jpg");
 	opacity: 90%;
 	background-position: center;
