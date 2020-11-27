@@ -6,7 +6,7 @@
 	width: 100%;
 	margin: 0;
 }
-#bgr {
+body {
 	background-image: url("pics/bg/anbg.jpg");
 	opacity: 90%;
 	background-position: center;
@@ -198,10 +198,9 @@ a:link, a:visited {
 	padding-top:3px;
 	bottom: 5px;
 	width: 25%;
-
 	transition: height 0.5s,font-size 0.5s,width 0.5s;
 }
-.col-6 button:hover {
+.col-6 .more-btn:hover {
 	box-shadow: 1px 1px 5px 0.5px black;
 	color: white;
 	height: 25px;
